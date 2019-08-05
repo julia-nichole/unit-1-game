@@ -8,7 +8,7 @@
     {
         name: "Atlanta Hawks",
         team: "Atlanta Hawks",
-        img:" "
+        img:" atlanta.png"
     },
     {
         name: "Kemba Walker",
@@ -18,7 +18,7 @@
     {
         name: "Boston Cetlics",
         team: "Boston Celtics",
-        img:""
+        img:"boston.png"
     },
     {
         name: "Kyrie Irving",
@@ -28,7 +28,7 @@
     {
         name: "Brooklyn Nets ",
         team: "Brookyln Nets",
-        img: " "
+        img: "brooklyn.png "
     },
     {
         name: "Terry Rozier",
@@ -38,7 +38,7 @@
     {
         name: "Charlotte Hornets",
         team: "Charlotte Hornets",
-        img:""
+        img:"charlo"
     },
     {
         name: "Zach Lavine",
@@ -304,11 +304,47 @@
     },
 ]
 
-const cards = players.map((players) => {
+let cards = players.map((players) => {
     return (
-        `<div><h1>${players.name}</h1></div>`
-    )}).sort(()=>  0.5 - Math.random )
- 
+        players.name
+    )}).sort(()=>Math.random()-0.5)
+
+    let section = document.querySelector('section') 
+
+         function divMaker(){
+            cards.forEach(el =>{
+              let div = document.createElement('div')
+              div.innerHTML = `${el}`
+              section.appendChild(div)
+            })
+          }
+          
+          divMaker()
+    
+// function shuffle(array) {
+//         var currentIndex = array.length, temporaryValue, randomIndex;
+      
+//         // While there remain elements to shuffle...
+//         while (0 !== currentIndex) {
+      
+//           // Pick a remaining element...
+//           randomIndex = Math.floor(Math.random() * currentIndex);
+//           currentIndex -= 1;
+      
+//           // And swap it with the current element.
+//           temporaryValue = array[currentIndex];
+//           array[currentIndex] = array[randomIndex];
+//           array[randomIndex] = temporaryValue;
+//         }
+      
+//         return array;
+//       }
+      
+// cards = shuffle(cards)
+
+    
+
+    
 
 
 

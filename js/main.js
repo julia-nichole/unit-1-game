@@ -266,6 +266,11 @@
         img: "aldridge.png"
     },
     {
+        name: "San Antonio Spurs",
+        team: "San Antonio Spurs",
+        img: ""
+    },
+    {
         name: "Kyle Lowry",
         team: "Toronto Raptors",
         img: "lowry.png"
@@ -302,6 +307,23 @@
 const cards = players.map((players) => {
     return (
         `<div><h1>${players.name}</h1></div>`
-    )
-}).sort((name)=>Math.random - 0.5)
+    )}).sort(()=>  0.5 - Math.random )
  
+
+
+
+
+
+
+
+
+
+    //function render(cards){
+    //body.append(cards)
+//}
+//  let button = document.getElementById("end").addEventListener("click",function(){
+// alert('help');
+//  });
+// document.body.appendChild();
+ 
+

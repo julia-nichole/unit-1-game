@@ -14,7 +14,7 @@ match the NBA player to his correct current team .
 5. Display congratulations message if all cards are chosen correctly 
 6. Make a functional reset button that re shuffles cards and allows user to start again .
     
-    
+    https://wireframe.cc/pro/edit/264791
     
 ##Technologies Used
 JavaScript, HTML, CSS

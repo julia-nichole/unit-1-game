@@ -1,7 +1,18 @@
-html{
+* {
+	box-sizing: border-box;
+}
+
+body{
     display:flex;
     align-content: center;
     background-color:#D8DAD3;
     font-family:'Monda', sans-serif;
     color:#D00000
+}
+button{
+    color:black;
+    background-color:#D00000;
+    
+    margin:2px;
+    padding:4px;
 }

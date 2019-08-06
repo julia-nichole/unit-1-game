@@ -2,14 +2,16 @@
 	box-sizing: border-box;
 }
 section{
-    display: flex;
+    /* display: flex;
     /* justify-content: center;
     align-items: center; */
-    height: 100vh;
+    /* height: 100vh;
     width:100vmin;
     flex-direction: row;
-    flex-wrap: row wrap;
-    
+    flex-wrap: row wrap; */
+     display:grid;
+     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+     grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
 }
 body{
     /* display:flex;
@@ -22,14 +24,31 @@ button{
     color:black;
     background-color:#D00000;
     
-    margin:2px;
-    padding:4px;
+    margin:10px;
+    padding:10px;
+   
+
 }
 
 .cardface {
-    
-     background-color: white ;
-     
-    margin: 20px 20px;
-    padding: 5px;
+    height:25vmin;
+    background-color: white ;
+    /* display:flex;
+    flex-wrap: wrap; */
+    margin: 8px 8px;
+    padding: 4px;
+    /* display: grid ;
+    grid-column: 2fr 2fr 2fr 2fr;
+    grid-row: 2fr 2fr 2fr 2fr ; */
+}
+.title{
+    font-size: 45px;
+    display: flex;
+    justify-content: center;
+
+}
+.timer{
+    font-size: 20px;
+    display: flex;
+    justify-content: center; 
 }

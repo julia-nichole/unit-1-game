@@ -304,6 +304,10 @@
     },
 ]
 
+
+let click1 = true;
+let click2 = true;
+
 let butn = document.getElementById("end");
 
 let DisplayResults = document.querySelector('.result')
@@ -319,10 +323,10 @@ let cards = players.map((players) => {
     let section = document.querySelector('section') 
 
          function divMaker(){
-            cards.forEach(el =>{
+            cards.forEach((el, idx) =>{
               let div = document.createElement('div')
               div.classList.add('cardface');
-            //   div.innerHTML = `${el}``
+              div.setAttribute('data-team',idx)
               section.appendChild(div)
               div.innerHTML = `<img src="${el}">`
             })
@@ -330,37 +334,44 @@ let cards = players.map((players) => {
         
           divMaker()
           
-          
-
-
-
-
-function CheckForMatch(){
-
-}
-
-
-
-// function shuffle(array) {
-//         var currentIndex = array.length, temporaryValue, randomIndex;
-      
-//         // While there remain elements to shuffle...
-//         while (0 !== currentIndex) {
-      
-//           // Pick a remaining element...
-//           randomIndex = Math.floor(Math.random() * currentIndex);
-//           currentIndex -= 1;
-      
-//           // And swap it with the current element.
-//           temporaryValue = array[currentIndex];
-//           array[currentIndex] = array[randomIndex];
-//           array[randomIndex] = temporaryValue;
-//         }
-      
-//         return array;
+        //   section.addEventListener('click',function(evt){
+        //   console.log(evt.target)
+        //   })
+        let divs = document.querySelectorAll("section div")
+         divs.forEach(function(div){
+          div.addEventListener('click',function(evt){
+            console.log(evt.target.parentElement.dataset.team)
+            console.dir(evt)
+          })
+          })
+           
+//           function compare(click1,click2){
+//               (player[idx].team == player[idx].team)
+//               return true }
+//              else { return false
 //       }
-      
-// cards = shuffle(cards)
+    
+//   function init(){
+//       click1 = false && click2 = false;
+//       if (click1 && click2)
+//       compare()
+//   }
+
+// function flipCard(){
+
+// }
+
+//  function CheckForMatch(click1,click2 ){
+              
+//   if ( player[idx].team === players[idx].team)
+//   return "you found a match "
+// }
+// {
+//     else if 
+// }
+
+
+
 
     
 
@@ -374,19 +385,13 @@ function CheckForMatch(){
 
 
 
-    //function render(cards){
-    //body.append(cards)
-//}
-//  let button = document.getElementById("end").addEventListener("click",function(){
-// alert('help');
-//  });
-// document.body.appendChild();
+    
  
 
 document.getElementById('start').addEventListener('click', function (){
-    var oneMinute = 120,
+    var twoMin = 120,
     display = document.querySelector('.timer');
-    startTimer(oneMinute, display);
+    startTimer(twoMin, display);
     render();
 
 });
@@ -407,7 +412,7 @@ function startTimer(duration, display){
 
         if (--timer < 0) {
             timer = "0";
-            DisplayResults.innerHTML = "Time's Up!"
+            DisplayResults.innerHTML = "Sorry Better Luck Next Time!!"
             render();
         }
     }, 1000);

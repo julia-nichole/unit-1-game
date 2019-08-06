@@ -1,326 +1,341 @@
 
  const players = [
     {
-        name: "Trae Young",
+        name: " Trae Young ",
         team: "Atlanta Hawks",
-        img: "young.png"
+        img: "images1/young.png"
     },
     {
-        name: "Atlanta Hawks",
+        name: " Atlanta Hawks ",
         team: "Atlanta Hawks",
-        img:" atlanta.png"
+        img:" images1/atlanta.png"
     },
     {
-        name: "Kemba Walker",
+        name: " Kemba Walker ",
         team: "Boston Cetlics",
-        img: "walker.png"
+        img: "images1/walker.png"
     },
     {
-        name: "Boston Cetlics",
+        name: " Boston Cetlics ",
         team: "Boston Celtics",
-        img:"boston.png"
+        img:"images1/boston.png"
     },
     {
-        name: "Kyrie Irving",
+        name: " Kyrie Irving ",
         team: "Brooklyn Nets",
-        img: "Irving.png"
+        img: "images1/Irving.png"
     },
     {
-        name: "Brooklyn Nets ",
+        name: " Brooklyn Nets ",
         team: "Brookyln Nets",
-        img: "brooklyn.png "
+        img: "images1/brooklyn.png "
     },
     {
-        name: "Terry Rozier",
+        name: " Terry Rozier",
         team: "Charlotte Hornets",
-        img: "rozier.png"
+        img: "images1/rozier.png"
     },
     {
-        name: "Charlotte Hornets",
+        name: " Charlotte Hornets ",
         team: "Charlotte Hornets",
-        img:"charlo"
+        img:"images1/charlotte.png"
     },
     {
-        name: "Zach Lavine",
+        name: " Zach Lavine ",
         team: "Chicago Bulls",
-        img: "lavine.png"
+        img: "images1/lavine.png"
     },
     {
-        name: "Chicago Bulls",
+        name: " Chicago Bulls ",
         team: "Chicago Bulls",
-        img:""
+        img:"images1/chicago.png"
     },
     {
-        name: "Kevin Love",
+        name: " Kevin Love ",
         team: "Cleveland Cavaliers",
-        img: "love.png"
+        img: "images1/love.png"
     },
     {
-        name: "Cleveland Cavaliers",
+        name: " Cleveland Cavaliers ",
         team: "Cleveland Cavilers",
-        img: " "
+        img: "images1/cleveland.png "
     },
     {
-        name: "Luka Doncic",
+        name: " Luka Doncic ",
         team: "Dallas Mavericks",
-        img:"doncic.png"
+        img:"images1/doncic.png"
     },
     {
-        name: "Dallas Mavericks",
+        name: " Dallas Mavericks ",
         team: "Dallas Mavericks",
-        img:""
+        img:"images1/dallas.png"
     },
     {
-        name: "Nikola Jokic",
+        name: " Nikola Jokic ",
         team: "Denver Nuggets",
-        img: "jokic.png"
+        img: "images1/jokic.png"
     },
     {
-        name: "Denver Nuggets",
+        name: " Denver Nuggets ",
         team: "Denver Nuggets",
-        img: ""
+        img: "images1/denver.png"
     },
     {
-        name: "Blake Griffin",
+        name: " Blake Griffin ",
         team: "Detroit Pistons",
-        img: "griffin.png"
+        img: "images1/griffin.png"
     },
     {
-        name: "Detroit Pistons",
+        name: " Detroit Pistons ",
         team: "Detroit Pistons",
-        img:""
+        img:"images1/detroit.png"
     },
     {
-        name: "Stephen Curry",
+        name: " Stephen Curry ",
         team: "Golden State Warriors",
-        img: "curry.png"
+        img: "images1/curry.png"
     },
     {
-        name: "Golden State Warriors",
+        name: " Golden State Warriors ",
         team: "Golden State Warriors",
-        img:""
+        img:"images1/golden.png"
     },
     {
-        name: "James Harden",
+        name: " James Harden ",
         team: "Houston Rockets",
-        img: "harden.png"
+        img: "images1/harden.png"
     },
     {
-        name: "Houston Rockets",
+        name: " Houston Rockets ",
         team: "Houston Rockets",
-        img:""
+        img:"images1/houston.png"
     },
     {
-        name: "Victor Oladipo",
+        name: " Victor Oladipo ",
         team: "Indiana Pacers",
-        img: "oladipo.png"
+        img: "images1/oladipo.png"
     },
     {
-        name: "Indiana Pacers",
+        name: " Indiana Pacers ",
         team: "Indiana Pacers",
-        img:""
+        img:"images1/pacers.png"
     },
     {
-        name: "Kawhi Leonard",
+        name: " Kawhi Leonard ",
         team: "LA Clippers",
-        img: "leonard.png"
+        img: "images1/leonard.png"
     },
     {
-        name: "LA Clippers",
+        name: " LA Clippers ",
         team: "LA Clippers",
-        img:""
+        img:"images1/clippers.png"
     },
     {
-        name: "Lebron James",
+        name: " Lebron James ",
         team: "Los Angeles Lakers",
-        img: "james.png"
+        img: "images1/james.png"
     },
     {
-        name: "Los Angeles Lakers",
+        name: " Los Angeles Lakers ",
         team: "Los Angeles Lakers",
-        img:""
+        img:"images1/lakers.png"
     },
     {
-        name: "Jonas Valanciunas",
+        name: " Jonas Valanciunas ",
         team: "Memphis Grizzlies",
-        img: "valanciunas.png"
+        img: "images1/valanciunas.png"
     },
     {
-        name: "Memphis Grizzlies",
+        name: " Memphis Grizzlies ",
         team: "Memphis Grizzlies",
-        img:""
+        img:"images1/memphis.png"
     },
     {
-        name: "Jimmy Butler",
+        name: " Jimmy Butler ",
         team: "Miami Heat",
-        img: "butler.png"
+        img: "images1/butler.png"
     },
     {
-        name: "Miami Heat",
+        name: " Miami Heat ",
         team: "Miami Heat",
-        img:""
+        img:"images1/miami.png"
     },
     {
-        name: "Giannis Antetokounmpo",
+        name: " Giannis Antetokounmpo ",
         team: "Milwaukee Bucks",
-        img: "antetokounmpo.png"
+        img: "images1/antetokounmpo.png"
     },
     {
-        name: "Milwaukee Bucks",
+        name: " Milwaukee Bucks ",
         team: "Milwaukee Bucks",
-        img:""
+        img:"images1/bucks.png"
     },
     {
-        name: "Karl-Anthony Towns",
+        name: " Karl-Anthony Towns ",
         team: "Minnesota Timberwolves",
-        img:"towns.png"
+        img:"images1/towns.png"
     },
     {
-        name: "Minnesota Timberwolves",
+        name: " Minnesota Timberwolves ",
         team: "Minnesota Timberwolves",
-        img:""
+        img:"images1/minnesota.png"
     },
     {
-        name: "Zion Williamson",
+        name:  " Zion Williamson ",
         team: "New Orleans Pelicans",
-        img:"wiliamson.png"
+        img:"images1/wiliamson.png"
     },
     {
-        name: "New Orleans Pelicans",
+        name: " New Orleans Pelicans ",
         team: "New Orleans Pelicans",
-        img:""
+        img:"images1/pelicans.png"
     },
     {
-        name: "Mitchell Robinson",
+        name: " Mitchell Robinson ",
         team: "New York Knicks",
-        img: "robinson.png"
+        img: "images1/robinson.png"
     },
     {
-        name: "New York Knicks",
+        name: " New York Knicks ",
         team: "New York Knicks",
-        img:""
+        img:"images1/knicks.png"
     },
     {
-        name: "Chris Paul",
+        name: " Chris Paul ",
         team: "Oklahoma City Thunder",
-        img: "paul.png"
+        img: "images1/paul.png"
     },
     {
-        name: "Oklahoma City Thunder",
+        name: " Oklahoma City Thunder ",
         team: "Oklahoma City Thunder",
-        img:" "
+        img: "images1/thunder.png"
     },
     {
-        name: "Aaron Gordon",
+        name: " Aaron Gordon ",
         team: "Orlando Magic",
-        img: "gordan.png"
+        img: "images1/gordan.png"
     },
     {
-        name: "Orlando Magic",
+        name: " Orlando Magic ",
         team: "Orlando Magic",
-        img:""
+        img:"images1/orlando.png"
     },
     {
-        name: "Joel Embiid",
+        name: " Joel Embiid ",
         team: "Philadelphia 76ers",
-        img: "embiid.png"
+        img: "images1/embiid.png"
     },
     {
-        name: "Philadelphia 76ers",
+        name: " Philadelphia 76ers ",
         team: "Philadelphia 76ers",
-        img:""
+        img:"images1/philadelphia.png"
     },
     {
-        name: "Devin Booker",
+        name: " Devin Booker ",
         team: "Phoenix Suns ",
-        img:"booker.png"
+        img:"images1/booker.png"
     },
     {
-        name: "Phoenix Suns ",
+        name: " Phoenix Suns ",
         team: "Phoenix Suns ",
-        img:""
+        img:"images1/suns.png"
     },
     {
-        name: "Damian Lillard",
+        name: " Damian Lillard ",
         team: "Portland Trail Blazers",
-        img: "lillard.png"
+        img: "images1/lillard.png"
     },
     {
-        name: "Portland Trail Blazers",
+        name: " Portland Trail Blazers ",
         team: "Portland Trail Blazers",
-        img:""
+        img:"images1/portland.png"
     },
     {
-        name: "De'Araron Fox ",
+        name: " De'Araron Fox ",
         team: "Sacramento Kings",
-        img: "fox.png"
+        img: "images1/fox.png"
     },
     {
-        name: "Sacramento Kings",
+        name: " Sacramento Kings ",
         team: "Sacramento Kings",
-        img: ""
+        img: "images1/kings.png"
     },
     {
-        name: "LaMarcus Aldridge",
+        name: " LaMarcus  Aldridge  ",
         team: "San Antonio Spurs",
-        img: "aldridge.png"
+        img: "images1/aldridge.png"
     },
     {
-        name: "San Antonio Spurs",
+        name: " San Antonio Spurs ",
         team: "San Antonio Spurs",
-        img: ""
+        img: "images1/spurs.png"
     },
     {
-        name: "Kyle Lowry",
+        name: " Kyle Lowry ",
         team: "Toronto Raptors",
-        img: "lowry.png"
+        img: "images1/lowry.png"
     },
     {
-        name: "Toronto Raptors",
+        name: " Toronto Raptors ",
         team: "Toronto Raptors",
-        img: ""
+        img: "images1/raptors.png"
     },
 
     {
-        name: "Donovan Mitchell",
+        name: " Donovan Mitchell ",
         team: "Utah Jazz",
-        img: "mitchell.png"
+        img: "images1/mitchell.png"
     },
 
     {
-        name: "Utah Jazz",
+        name: " Utah Jazz ",
         team: "Utah Jazz",
-        img:""
+        img:"images1/jazz.png"
     },
     {
-        name: "Bradley Beal",
+        name: " Bradley Beal ",
         team: "Washington Wizards",
-        img : "beal.png"
+        img : "images1/beal.png"
     },
     {
-        name: "Washington Wizards",
-        team: "Washington Wizards",
-        img: ""
+        name: " Washington Wizards ",
+        team: " Washington Wizards",
+        img: "images1/wizards.png"
     },
 ]
+
+let butn = document.getElementById("end");
+let butn2 = document.getElementById('start');
+
 
 let cards = players.map((players) => {
     return (
         players.name
     )}).sort(()=>Math.random()-0.5)
 
+  
+
+
     let section = document.querySelector('section') 
 
          function divMaker(){
             cards.forEach(el =>{
               let div = document.createElement('div')
+              div.classList.add('cardface');
               div.innerHTML = `${el}`
               section.appendChild(div)
             })
           }
-          
+        
           divMaker()
-    
+          
+          
+
+
+
+
+
+
 // function shuffle(array) {
 //         var currentIndex = array.length, temporaryValue, randomIndex;
       

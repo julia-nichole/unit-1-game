@@ -8,7 +8,7 @@
     {
         name: " Atlanta Hawks ",
         team: "Atlanta Hawks",
-        img:" images1/atlanta.png"
+        img:" images1/atlanta-260x190.png"
     },
     {
         name: " Kemba Walker ",
@@ -18,7 +18,7 @@
     {
         name: " Boston Cetlics ",
         team: "Boston Celtics",
-        img:"images1/boston.png"
+        img:"images1/boston-260x190.png"
     },
     {
         name: " Kyrie Irving ",
@@ -28,7 +28,7 @@
     {
         name: " Brooklyn Nets ",
         team: "Brookyln Nets",
-        img: "images1/brooklyn.png "
+        img: "images1/brooklyn-260x190.png "
     },
     {
         name: " Terry Rozier",
@@ -38,7 +38,7 @@
     {
         name: " Charlotte Hornets ",
         team: "Charlotte Hornets",
-        img:"images1/charlotte.png"
+        img:"images1/charlotte-260x190.png"
     },
     {
         name: " Zach Lavine ",
@@ -48,7 +48,7 @@
     {
         name: " Chicago Bulls ",
         team: "Chicago Bulls",
-        img:"images1/chicago.png"
+        img:"images1/chicago-260x190.png"
     },
     {
         name: " Kevin Love ",
@@ -58,7 +58,7 @@
     {
         name: " Cleveland Cavaliers ",
         team: "Cleveland Cavilers",
-        img: "images1/cleveland.png "
+        img: "images1/cleveland-260x190.png "
     },
     {
         name: " Luka Doncic ",
@@ -68,7 +68,7 @@
     {
         name: " Dallas Mavericks ",
         team: "Dallas Mavericks",
-        img:"images1/dallas.png"
+        img:"images1/dallas-260x190.png"
     },
     {
         name: " Nikola Jokic ",
@@ -78,7 +78,7 @@
     {
         name: " Denver Nuggets ",
         team: "Denver Nuggets",
-        img: "images1/denver.png"
+        img: "images1/denver-260x190.png"
     },
     {
         name: " Blake Griffin ",
@@ -88,7 +88,7 @@
     {
         name: " Detroit Pistons ",
         team: "Detroit Pistons",
-        img:"images1/detroit.png"
+        img:"images1/detroit-260x190.png"
     },
     {
         name: " Stephen Curry ",
@@ -98,7 +98,7 @@
     {
         name: " Golden State Warriors ",
         team: "Golden State Warriors",
-        img:"images1/golden.png"
+        img:"images1/golden-260x190.png"
     },
     {
         name: " James Harden ",
@@ -108,7 +108,7 @@
     {
         name: " Houston Rockets ",
         team: "Houston Rockets",
-        img:"images1/houston.png"
+        img:"images1/houston-260x190.png"
     },
     {
         name: " Victor Oladipo ",
@@ -118,7 +118,7 @@
     {
         name: " Indiana Pacers ",
         team: "Indiana Pacers",
-        img:"images1/pacers.png"
+        img:"images1/pacers-260x190.png"
     },
     {
         name: " Kawhi Leonard ",
@@ -128,7 +128,7 @@
     {
         name: " LA Clippers ",
         team: "LA Clippers",
-        img:"images1/clippers.png"
+        img:"images1/clippers-260x190.png"
     },
     {
         name: " Lebron James ",
@@ -138,7 +138,7 @@
     {
         name: " Los Angeles Lakers ",
         team: "Los Angeles Lakers",
-        img:"images1/lakers.png"
+        img:"images1/lakers-260x190.png"
     },
     {
         name: " Jonas Valanciunas ",
@@ -148,7 +148,7 @@
     {
         name: " Memphis Grizzlies ",
         team: "Memphis Grizzlies",
-        img:"images1/memphis.png"
+        img:"images1/memphis-260x190.png"
     },
     {
         name: " Jimmy Butler ",
@@ -158,17 +158,17 @@
     {
         name: " Miami Heat ",
         team: "Miami Heat",
-        img:"images1/miami.png"
+        img:"images1/miami-260x190.png"
     },
     {
         name: " Giannis Antetokounmpo ",
         team: "Milwaukee Bucks",
-        img: "images1/antetokounmpo.png"
+        img: "images1/giannis.png"
     },
     {
         name: " Milwaukee Bucks ",
         team: "Milwaukee Bucks",
-        img:"images1/bucks.png"
+        img:"images1/bucks-260x190.png"
     },
     {
         name: " Karl-Anthony Towns ",
@@ -178,17 +178,17 @@
     {
         name: " Minnesota Timberwolves ",
         team: "Minnesota Timberwolves",
-        img:"images1/minnesota.png"
+        img:"images1/minnesota-260x190.png"
     },
     {
         name:  " Zion Williamson ",
         team: "New Orleans Pelicans",
-        img:"images1/wiliamson.png"
+        img:"images1/williamson.png"
     },
     {
         name: " New Orleans Pelicans ",
         team: "New Orleans Pelicans",
-        img:"images1/pelicans.png"
+        img:"images1/pelicans-260x190.png"
     },
     {
         name: " Mitchell Robinson ",
@@ -198,7 +198,7 @@
     {
         name: " New York Knicks ",
         team: "New York Knicks",
-        img:"images1/knicks.png"
+        img:"images1/knicks-260x190.png"
     },
     {
         name: " Chris Paul ",
@@ -208,17 +208,17 @@
     {
         name: " Oklahoma City Thunder ",
         team: "Oklahoma City Thunder",
-        img: "images1/thunder.png"
+        img: "images1/thunder-260x190.png"
     },
     {
         name: " Aaron Gordon ",
         team: "Orlando Magic",
-        img: "images1/gordan.png"
+        img: "images1/gordon.png"
     },
     {
         name: " Orlando Magic ",
         team: "Orlando Magic",
-        img:"images1/orlando.png"
+        img:"images1/orlando-260x190.png"
     },
     {
         name: " Joel Embiid ",
@@ -228,7 +228,7 @@
     {
         name: " Philadelphia 76ers ",
         team: "Philadelphia 76ers",
-        img:"images1/philadelphia.png"
+        img:"images1/philadelphia-260x190.png"
     },
     {
         name: " Devin Booker ",
@@ -238,7 +238,7 @@
     {
         name: " Phoenix Suns ",
         team: "Phoenix Suns ",
-        img:"images1/suns.png"
+        img:"images1/suns-260x190.png"
     },
     {
         name: " Damian Lillard ",
@@ -248,7 +248,7 @@
     {
         name: " Portland Trail Blazers ",
         team: "Portland Trail Blazers",
-        img:"images1/portland.png"
+        img:"images1/portland-260x190.png"
     },
     {
         name: " De'Araron Fox ",
@@ -258,7 +258,7 @@
     {
         name: " Sacramento Kings ",
         team: "Sacramento Kings",
-        img: "images1/kings.png"
+        img: "images1/kings-260x190.png"
     },
     {
         name: " LaMarcus  Aldridge  ",
@@ -268,7 +268,7 @@
     {
         name: " San Antonio Spurs ",
         team: "San Antonio Spurs",
-        img: "images1/spurs.png"
+        img: "images1/spurs-260x190.png"
     },
     {
         name: " Kyle Lowry ",
@@ -278,7 +278,7 @@
     {
         name: " Toronto Raptors ",
         team: "Toronto Raptors",
-        img: "images1/raptors.png"
+        img: "images1/raptors-260x190.png"
     },
 
     {
@@ -290,7 +290,7 @@
     {
         name: " Utah Jazz ",
         team: "Utah Jazz",
-        img:"images1/jazz.png"
+        img:"images1/jazz-260x190.png"
     },
     {
         name: " Bradley Beal ",
@@ -300,17 +300,17 @@
     {
         name: " Washington Wizards ",
         team: " Washington Wizards",
-        img: "images1/wizards.png"
+        img: "images1/wizards-260x190.png"
     },
 ]
 
 let butn = document.getElementById("end");
-let butn2 = document.getElementById('start');
 
+let DisplayResults = document.querySelector('.result')
 
 let cards = players.map((players) => {
     return (
-        players.name
+        players.img
     )}).sort(()=>Math.random()-0.5)
 
   
@@ -322,8 +322,9 @@ let cards = players.map((players) => {
             cards.forEach(el =>{
               let div = document.createElement('div')
               div.classList.add('cardface');
-              div.innerHTML = `${el}`
+            //   div.innerHTML = `${el}``
               section.appendChild(div)
+              div.innerHTML = `<img src="${el}">`
             })
           }
         
@@ -333,6 +334,10 @@ let cards = players.map((players) => {
 
 
 
+
+function CheckForMatch(){
+
+}
 
 
 
@@ -378,3 +383,37 @@ let cards = players.map((players) => {
 // document.body.appendChild();
  
 
+document.getElementById('start').addEventListener('click', function (){
+    var oneMinute = 120,
+    display = document.querySelector('.timer');
+    startTimer(oneMinute, display);
+    render();
+
+});
+
+function startTimer(duration, display){
+    var timer = duration, minutes, seconds;
+    setInterval(function (){
+        minutes = parseInt(timer / 120, 10)
+        seconds = parseInt(timer % 120, 10);
+        
+        minutes = minutes < 20 ? "0" + minutes : minutes;
+        seconds = seconds < 20 ? "0" + seconds : seconds;
+        
+        display.textContent = minutes + ":" + seconds;
+        document.querySelector('button').addEventListener('click', function(){
+            render();
+        })
+
+        if (--timer < 0) {
+            timer = "0";
+            DisplayResults.innerHTML = "Time's Up!"
+            render();
+        }
+    }, 1000);
+    
+};
+
+function render(){
+
+}

@@ -2,21 +2,14 @@
 	box-sizing: border-box;
 }
 section{
-    /* display: flex;
-    /* justify-content: center;
-    align-items: center; */
-    /* height: 100vh;
-    width:100vmin;
-    flex-direction: row;
-    flex-wrap: row wrap; */
+   
      display:grid;
      grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
      grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
 }
 body{
-    /* display:flex;
-    justify-content:flex-start;*/
-    background-color:#D8DAD3; 
+    
+    background-color:#D8DAD3;
     font-family:'Monda', sans-serif;
     color:#D00000
 }
@@ -33,13 +26,9 @@ button{
 .cardface {
     height:25vmin;
     background-color: white ;
-    /* display:flex;
-    flex-wrap: wrap; */
     margin: 8px 8px;
     padding: 4px;
-    /* display: grid ;
-    grid-column: 2fr 2fr 2fr 2fr;
-    grid-row: 2fr 2fr 2fr 2fr ; */
+   
 }
 .title{
     font-size: 45px;

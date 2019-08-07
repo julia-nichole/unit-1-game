@@ -307,7 +307,7 @@ let gv = [];
 let points = 0
 let section = document.querySelector("section");
 let butn = document.getElementById("end");
-let match = document.querySelector("game msg");
+let match = document.querySelector("game");
 let DisplayResults = document.querySelector(".result");
 
 let cards = players
@@ -334,68 +334,30 @@ divs.forEach(function(div) {
   div.addEventListener("click", function(evt) {
     let clickEvt = evt.target.parentElement.dataset.team;
     gv.push(clickEvt);
-    checkMatch(gv, clickEvt);
+    checkMatch(gv, clickEvt,evt);
     console.log(gv);
+    evt.target.style.border = "5px solid red "
   });
 });
 
-function checkMatch(clickAry, clickEvt) {
+function checkMatch(clickAry, clickEvt,evt) {
   if (clickAry.length === 2) {
     console.log(clickAry);
     console.log(clickEvt);
     let [tm1, tm2] = clickAry; //  array deconstruction rather clever
     if (tm1 === tm2) {
-      //   match.innerHTML = "You Found a  match !"
-      alert("ITS A MATCH");
+  // tried remove and set attribute 
+     evt.target.style.border = "5px solid red "
+     console.log(evt.target)
+      Swal.fire("You found a Match");
+     
     } else {
-      // match.innerHTML = "Sorry try again"
-      alert("YOU FAILED");
+     Swal.fire("Try Again")
+     evt.target.style.border = "5px solid white"
     }
     gv = [];
   }
 }
 
-//   function init(){
-//       click1 = false && click2 = false;
-//       if (click1 && click2)
-//       compare()
-//   }
 
-// function flipCard(){
 
-// }
-
-//  function CheckForMatch(click1,click2 ){
-
-document.getElementById("start").addEventListener("click", function() {
-  var twoMin = 120,
-    display = document.querySelector(".timer");
-  startTimer(twoMin, display);
-  render();
-});
-
-function startTimer(duration, display) {
-  var timer = duration,
-    minutes,
-    seconds;
-  setInterval(function() {
-    minutes = parseInt(timer / 120, 10);
-    seconds = parseInt(timer % 120, 10);
-
-    minutes = minutes < 20 ? "0" + minutes : minutes;
-    seconds = seconds < 20 ? "0" + seconds : seconds;
-
-    display.textContent = minutes + ":" + seconds;
-    document.querySelector("button").addEventListener("click", function() {
-      render();
-    });
-
-    if (--timer < 0) {
-      timer = "0";
-      DisplayResults.innerHTML = "Sorry Better Luck Next Time!!";
-      render();
-    }
-  }, 1000);
-}
-
-function render() {}

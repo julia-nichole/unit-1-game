@@ -310,7 +310,7 @@ let butn = document.getElementById("end");
 let match = document.querySelector("game");
 let DisplayResults = document.querySelector(".result");
 
-
+ 
 
 
 
@@ -361,14 +361,15 @@ function checkMatch(clickAry, clickEvt,evt) {
     console.log(clickEvt);
     let [tm1, tm2] = clickAry; //  array deconstruction rather clever
     if (tm1 === tm2) {
-      points ++
+      points ++ ;
+     
   // tried remove and set attribute 
-     evt.target.style.border = "5px solid red "
+     evt.target.style.border = "5px solid green "
      console.log(evt.target)
-      Swal.fire("You found a Match");
+      Swal.fire(`You found a Match! Points Total ${points}`);
      
     } else {
-     Swal.fire("Try Again")
+     Swal.fire("Try Again No Points Earned")
     // evt.target.style.border = "none"
     }
     gv = [];
@@ -407,10 +408,10 @@ function startTimer(duration, display){
          
       
   }, 1000)
-  breakLoop(() =>{
+  breakLoop(() => {
     clearInterval(timer);
-    swal.fire("GAME OVER TIMES UP !")
-  },1000);
+    swal.fire(`YOU FAILED FINAL SCORE ${points}`)
+  },1100);
 
 };
 

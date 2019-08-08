@@ -13,10 +13,11 @@ body{
     font-family:'Monda', sans-serif;
     color:#D00000
 }
-button{
+button{ 
+     text-align: center;
     color:black;
     background-color:#D00000;
-    
+    font-size: 18px;
     margin:10px;
     padding:10px;
    
@@ -30,6 +31,10 @@ button{
     padding: 4px;
    
 }
+.cardface:visited {
+border:red 5px solid;
+}
+
 .title{
     font-size: 45px;
     display: flex;
@@ -40,4 +45,12 @@ button{
     font-size: 20px;
     display: flex;
     justify-content: center; 
+}
+.end{
+    color:black;
+    background-color:#D00000;
+    font-size:18px;
+    margin:10px;
+    padding:10px;
+   
 }

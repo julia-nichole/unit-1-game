@@ -364,13 +364,13 @@ function checkMatch(clickAry, clickEvt,evt) {
       points ++ ;
      
   // tried remove and set attribute 
-     evt.target.style.border = "5px solid green "
+     
      console.log(evt.target)
       Swal.fire(`You found a Match! Points Total ${points}`);
-     
+    //   evt.target.style.border = "5px solid green "
     } else {
      Swal.fire("Try Again No Points Earned")
-    // evt.target.style.border = "none"
+    //  evt.target.style.border = "5px solid white"
     }
     gv = [];
   }
@@ -392,25 +392,27 @@ function startTimer(duration, display){
       minutes = parseInt(timer / 60, 10)
       seconds = parseInt(timer % 60, 10);
 
-      minutes = minutes < 20 ? "0" + minutes : minutes;
-      seconds = seconds < 20 ? "0" + seconds : seconds;
+      minutes = minutes < 10 ? "0" + minutes : minutes;
+      seconds = seconds < 10 ? "0" + seconds : seconds;
 
       display.textContent = minutes + ":" + seconds;
       document.querySelector('button').addEventListener('click', function(){
           render();
       })
 
-      if (--timer < 0) {
-          timer = "0";
+      if (--timer <= 0) {
+          timer = "0.00";
+          swal.fire(`YOU FAILED FINAL SCORE ${points}`)
           clearInterval(timer);
           
       };
          
       
   }, 1000)
+  
   breakLoop(() => {
     clearInterval(timer);
-    swal.fire(`YOU FAILED FINAL SCORE ${points}`)
+ 
   },1100);
 
 };

@@ -11,12 +11,12 @@ const players = [
   },
   {
     name: " Kemba Walker ",
-    team: "Boston Cetlics",
+    team: "boston celtics",
     img: "images1/walker.png"
   },
   {
-    name: " Boston Cetlics ",
-    team: "Boston Celtics",
+    name: "boston celtics",
+    team: "boston celtics",
     img: "images1/boston-260x190.png"
   },
   {
@@ -26,7 +26,7 @@ const players = [
   },
   {
     name: " Brooklyn Nets ",
-    team: "Brookyln Nets",
+    team: "Brooklyn Nets",
     img: "images1/brooklyn-260x190.png "
   },
   {
@@ -56,7 +56,7 @@ const players = [
   },
   {
     name: " Cleveland Cavaliers ",
-    team: "Cleveland Cavilers",
+    team: "Cleveland Cavaliers",
     img: "images1/cleveland-260x190.png "
   },
   {
@@ -297,18 +297,33 @@ const players = [
     img: "images1/beal.png"
   },
   {
-    name: " Washington Wizards ",
-    team: " Washington Wizards",
+    name: " Washington Wizards",
+    team: "Washington Wizards",
     img: "images1/wizards-260x190.png"
   }
 ];
 
 let gv = [];
-let points = 0
+let points = []
 let section = document.querySelector("section");
 let butn = document.getElementById("end");
 let match = document.querySelector("game");
 let DisplayResults = document.querySelector(".result");
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 let cards = players
   .map(players => {
@@ -346,6 +361,7 @@ function checkMatch(clickAry, clickEvt,evt) {
     console.log(clickEvt);
     let [tm1, tm2] = clickAry; //  array deconstruction rather clever
     if (tm1 === tm2) {
+      points ++
   // tried remove and set attribute 
      evt.target.style.border = "5px solid red "
      console.log(evt.target)
@@ -353,7 +369,7 @@ function checkMatch(clickAry, clickEvt,evt) {
      
     } else {
      Swal.fire("Try Again")
-     evt.target.style.border = "5px solid white"
+    // evt.target.style.border = "none"
     }
     gv = [];
   }
@@ -361,3 +377,41 @@ function checkMatch(clickAry, clickEvt,evt) {
 
 
 
+document.getElementById('start').addEventListener('click', function (){
+  var oneMinute = 60,
+  display = document.querySelector('.timer');
+  startTimer(oneMinute, display);
+  render();
+
+});
+
+function startTimer(duration, display){
+  var timer = duration, minutes, seconds;
+  setInterval(function (){
+      minutes = parseInt(timer / 60, 10)
+      seconds = parseInt(timer % 60, 10);
+
+      minutes = minutes < 20 ? "0" + minutes : minutes;
+      seconds = seconds < 20 ? "0" + seconds : seconds;
+
+      display.textContent = minutes + ":" + seconds;
+      document.querySelector('button').addEventListener('click', function(){
+          render();
+      })
+
+      if (--timer < 0) {
+          timer = "0";
+          clearInterval(timer);
+          
+      };
+         
+      
+  }, 1000)
+  breakLoop(() =>{
+    clearInterval(timer);
+    swal.fire("GAME OVER TIMES UP !")
+  },1000);
+
+};
+
+render();

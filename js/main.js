@@ -376,8 +376,7 @@ function checkMatch(clickAry, clickEvt,evt) {
   }
 }
 
-
-
+//pass in check timer function see jareds code 
 document.getElementById('start').addEventListener('click', function (){
   var oneMinute = 60,
   display = document.querySelector('.timer');
@@ -402,19 +401,25 @@ function startTimer(duration, display){
 
       if (--timer <= 0) {
           timer = "0.00";
-          swal.fire(`YOU FAILED FINAL SCORE ${points}`)
           clearInterval(timer);
-          
-      };
-         
+          swal.fire(`YOU FAILED FINAL SCORE ${points}`)
+      } 
+
+      
       
   }, 1000)
   
-  breakLoop(() => {
-    clearInterval(timer);
- 
-  },1100);
-
+  
 };
 
 render();
+
+
+
+
+
+
+
+
+
+

@@ -1,4 +1,4 @@
-# Test your NBA Knowledge
+#  NBA Matching Game
 # Deployment link :
  http://unit-1-nba.surge.sh/
 ## How to Play
